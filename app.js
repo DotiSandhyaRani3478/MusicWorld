@@ -36,7 +36,7 @@ myApp.factory("SongService", function() {
 	var songs = [
 		{
 
-			imgUrl: "selen.jpg",
+			imgUrl: "selena.jpg",
 			name: "Kill em with Kindness",
 			Artist: "Selena Gomez",
 			Album: "Revival",
@@ -44,14 +44,14 @@ myApp.factory("SongService", function() {
 
 		},
 		{
-			imgUrl: "bruno_mar.jpg",
+			imgUrl: "bruno_mars.jpg",
 			name: "Just the way you are",
 			Artist: "Bruno Mars",
 			Album: "Doo-Wops & Hooligans",
 			Released: "2010"
 		},
 		{
-			imgUrl: "taylo.jpg",
+			imgUrl: "taylor.jpg",
 			name: "Look what you made me do",
 			Artist: "Taylor Swift",
 			Album: "Reputation",
@@ -59,7 +59,7 @@ myApp.factory("SongService", function() {
 
 		},
 		{
-			imgUrl: "Calvin.jpg",
+			imgUrl: "calvin.jpg",
 			name: "This is what you came for",
 			Artist: "Calvin Harris",
 			Album: "Reputation",
@@ -67,7 +67,7 @@ myApp.factory("SongService", function() {
 
 		},
 		{
-			imgUrl: "taylo.jpg",
+			imgUrl: "charlie.jpg",
 			name: "We dont talk anymore",
 			Artist: "Charlie Puth",
 			Album: "Nine TRack Mind",

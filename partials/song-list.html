@@ -1,0 +1,25 @@
+
+        <div id="bookListWrapper" >
+    			<form role="form">
+    			  <div class="form-group">
+    				<input type="text" class="form-control" placeholder="Search here..."
+            ng-model = "searchStr">
+    			  </div>
+    			</form>
+
+
+    			<ul class="list-unstyled">
+    				<li class="song" ng-repeat="song in songs | filter: searchStr"
+    					style="background: white url(imgs/{{song.imgUrl}}) no-repeat">
+    					<div class="song-details clearfix">
+    						<h3>{{song.name}}</h3>
+    						<p>{{song.Artist}}</p>
+    						<ul class="list-unstyled list-inline">
+    							<li><b>Album: </b>{{song.Album}}</li>
+    							<li><b>Released: </b>{{song.Released}}</li>
+              	</ul>
+    						<button class="btn btn-info pull-right" ng-click="addToFavorite(song)">Add to Favorite</button>
+    					</div>
+    				</li>
+    			</ul>
+    		</div>
